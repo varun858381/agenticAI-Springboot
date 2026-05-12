@@ -1,0 +1,8 @@
+com/agentic/ai/persistence/entity/AgentExecutionLogEntity.class
+com/agentic/ai/persistence/repository/AgentRepository.class
+com/agentic/ai/persistence/entity/AgentResultEntity.class
+com/agentic/ai/persistence/repository/AgentTaskRepository.class
+com/agentic/ai/persistence/entity/AgentEntity.class
+com/agentic/ai/persistence/entity/AgentTaskEntity.class
+com/agentic/ai/persistence/repository/AgentResultRepository.class
+com/agentic/ai/persistence/repository/AgentExecutionLogRepository.class
