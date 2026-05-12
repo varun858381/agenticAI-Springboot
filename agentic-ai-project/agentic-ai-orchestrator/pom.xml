@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.agentic</groupId>
+    <artifactId>agentic-ai-parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <artifactId>agentic-ai-orchestrator</artifactId>
+  <packaging>jar</packaging>
+  <name>Agentic AI - Orchestrator</name>
+  <description>Agentic loop: Plan, Delegate, Execute, Reflect</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.agentic</groupId>
+      <artifactId>agentic-ai-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.agentic</groupId>
+      <artifactId>agentic-ai-persistence</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.agentic</groupId>
+      <artifactId>agentic-ai-agents</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.ai</groupId>
+      <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+      <version>${spring-ai.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
+</project>
